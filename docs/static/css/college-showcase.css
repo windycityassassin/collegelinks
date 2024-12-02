@@ -1,0 +1,246 @@
+/* College Showcase Styles */
+
+:root {
+    --college-primary-color: #3498db;
+    --college-secondary-color: #2980b9;
+    --college-text-color: #fff;
+    --transition-duration: 0.3s;
+}
+
+.college-showcase {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.98);
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity var(--transition-duration) ease-out,
+                visibility var(--transition-duration) ease-out;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+.college-showcase.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.showcase-close {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.1);
+    border: none;
+    color: #333;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    z-index: 10;
+}
+
+.showcase-close:hover {
+    background: rgba(0, 0, 0, 0.2);
+    transform: rotate(90deg);
+}
+
+.showcase-content {
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
+
+/* Parallax Sections */
+.parallax-section {
+    position: relative;
+    padding: 80px 20px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out,
+                transform 0.6s ease-out;
+}
+
+.parallax-section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Header Section */
+.showcase-header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: var(--college-primary-color);
+    color: var(--college-text-color);
+}
+
+.showcase-header h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    max-width: 800px;
+}
+
+.college-type {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background: var(--college-secondary-color);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Overview Section */
+.showcase-overview {
+    background: #fff;
+    color: #333;
+}
+
+.overview-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.overview-content h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: var(--college-primary-color);
+}
+
+.location-info {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.location-info i {
+    color: var(--college-primary-color);
+    font-size: 24px;
+    margin-top: 4px;
+}
+
+/* Accreditation Section */
+.showcase-accreditation {
+    background: #f8f9fa;
+}
+
+.accreditation-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.accreditation-content h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: var(--college-primary-color);
+}
+
+.accreditation-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+}
+
+.accreditation-item {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.accreditation-item:hover {
+    transform: translateY(-5px);
+}
+
+.accreditation-item .value {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--college-primary-color);
+    margin-bottom: 10px;
+}
+
+.accreditation-item .label {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Contact Section */
+.showcase-contact {
+    background: #fff;
+}
+
+.contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-content h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: var(--college-primary-color);
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #333;
+    transition: all 0.2s ease;
+}
+
+.contact-item:hover {
+    background: var(--college-primary-color);
+    color: white;
+    transform: translateY(-2px);
+}
+
+.contact-item i {
+    font-size: 24px;
+}
+
+/* Magnetic Snap Effect */
+.leaflet-marker-icon {
+    transition: transform 0.1s ease-out;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .showcase-header h1 {
+        font-size: 36px;
+    }
+
+    .parallax-section {
+        padding: 60px 20px;
+    }
+
+    .accreditation-grid,
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+}
