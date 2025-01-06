@@ -1,0 +1,18 @@
+{
+  "total_records": 1185,
+  "complete_addresses": 1184,
+  "complete_postal_codes": 1068,
+  "unique_states": 34,
+  "quality_distribution": {
+    "80": 1053,
+    "100": 69,
+    "60": 62,
+    "0": 1
+  },
+  "priority_distribution": {
+    "2": 1053,
+    "1": 69,
+    "3": 62,
+    "5": 1
+  }
+}

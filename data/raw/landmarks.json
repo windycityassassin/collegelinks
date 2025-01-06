@@ -1,0 +1,43 @@
+{
+    "educational": [
+        "University Campus",
+        "College Campus",
+        "Engineering College",
+        "Medical College",
+        "Institute of Technology",
+        "Educational Complex",
+        "Academic Block",
+        "Research Park",
+        "Science City",
+        "Knowledge Park"
+    ],
+    "transport": [
+        "Railway Station",
+        "Bus Stand",
+        "Metro Station",
+        "Airport Road",
+        "Highway",
+        "Expressway"
+    ],
+    "civic": [
+        "Municipal Corporation",
+        "District Court",
+        "Collectorate",
+        "Government Complex",
+        "Civil Lines"
+    ],
+    "commercial": [
+        "IT Park",
+        "Tech Park",
+        "Industrial Area",
+        "Business District",
+        "Commercial Complex"
+    ],
+    "geographical": [
+        "Lake",
+        "River",
+        "Hills",
+        "Valley",
+        "Forest"
+    ]
+}

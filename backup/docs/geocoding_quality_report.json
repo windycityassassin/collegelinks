@@ -1,0 +1,86 @@
+{
+  "total_records": 1185,
+  "geocoded_records": 1185,
+  "records_with_pincode": 1068,
+  "quality_scores": {
+    "high_confidence": 1185,
+    "medium_confidence": 1185,
+    "low_confidence": 0
+  },
+  "state_distribution": {
+    "Gujarat": 100,
+    "Uttar Pradesh": 96,
+    "Rajasthan": 89,
+    "Karnataka": 88,
+    "Maharashtra": 85,
+    "Madhya Pradesh": 84,
+    "Tamil Nadu": 57,
+    "West Bengal": 53,
+    "Haryana": 52,
+    "Andhra Pradesh": 44,
+    "Uttarakhand": 42,
+    "Odisha": 38,
+    "Punjab": 36,
+    "Jharkhand": 35,
+    "Telangana": 35,
+    "Chhattisgarh": 34,
+    "Bihar": 32,
+    "Assam": 32,
+    "Delhi": 28,
+    "Himachal Pradesh": 25,
+    "Kerala": 19,
+    "Sikkim": 12,
+    "Jammu And Kashmir": 11,
+    "Arunachal Pradesh": 11,
+    "Meghalaya": 10,
+    "Manipur": 10,
+    "Tripura": 7,
+    "Nagaland": 5,
+    "Chandigarh": 3,
+    "Puducherry": 3,
+    "Ladakh": 3,
+    "Goa": 2,
+    "Mizoram": 2,
+    "Andaman And Nicobar Islands": 1
+  },
+  "institution_type_distribution": {
+    "Private": 497,
+    "State": 492,
+    "Deemed to be Universities": 138,
+    "Central": 57,
+    "Colleges": 1
+  },
+  "quality_by_institution_type": {
+    "Private": {
+      "total": 497,
+      "geocoded": 497,
+      "with_pincode": 449
+    },
+    "State": {
+      "total": 492,
+      "geocoded": 492,
+      "with_pincode": 425
+    },
+    "Central": {
+      "total": 57,
+      "geocoded": 57,
+      "with_pincode": 57
+    },
+    "Deemed to be Universities": {
+      "total": 138,
+      "geocoded": 138,
+      "with_pincode": 137
+    },
+    "Colleges": {
+      "total": 1,
+      "geocoded": 1,
+      "with_pincode": 0
+    }
+  },
+  "missing_data": {
+    "missing_pincode": 117,
+    "missing_state": 1,
+    "missing_address": 1,
+    "missing_coordinates": 0
+  }
+}

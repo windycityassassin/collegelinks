@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: collegelinks
+Version: 0.1
+Requires-Dist: flask
+Requires-Dist: pandas
+Requires-Dist: geopy
+Requires-Dist: pydantic

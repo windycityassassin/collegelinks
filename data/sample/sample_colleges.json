@@ -1,0 +1,103 @@
+{
+    "colleges": [
+        {
+            "name": "Indian Institute of Technology Bombay",
+            "state": "Maharashtra",
+            "city": "Mumbai",
+            "latitude": 19.1334,
+            "longitude": 72.9133,
+            "institution_type": "Central",
+            "accreditation": {
+                "naac_grade": "A++",
+                "nirf_rank": 3
+            },
+            "courses": {
+                "engineering": [
+                    {
+                        "name": "B.Tech Computer Science",
+                        "fee_per_semester": 50000
+                    }
+                ]
+            },
+            "facilities": {
+                "sports": ["Cricket Ground", "Swimming Pool", "Sports Complex"],
+                "labs": ["Computer Lab", "Physics Lab", "Chemistry Lab"],
+                "library": {
+                    "books": 500000
+                },
+                "hostel": {
+                    "boys": true,
+                    "girls": true
+                }
+            }
+        },
+        {
+            "name": "All India Institute of Medical Sciences",
+            "state": "Delhi",
+            "city": "New Delhi",
+            "latitude": 28.5672,
+            "longitude": 77.2100,
+            "institution_type": "Central",
+            "accreditation": {
+                "naac_grade": "A++",
+                "nirf_rank": 1
+            },
+            "courses": {
+                "medical": [
+                    {
+                        "name": "MBBS",
+                        "fee_per_semester": 60000
+                    }
+                ]
+            },
+            "facilities": {
+                "sports": ["Sports Complex"],
+                "labs": ["Medical Lab", "Research Lab"],
+                "library": {
+                    "books": 300000
+                },
+                "hostel": {
+                    "boys": true,
+                    "girls": true
+                }
+            }
+        },
+        {
+            "name": "University of Mumbai",
+            "state": "Maharashtra",
+            "city": "Mumbai",
+            "latitude": 18.9293,
+            "longitude": 72.8539,
+            "institution_type": "State",
+            "accreditation": {
+                "naac_grade": "A+",
+                "nirf_rank": 65
+            },
+            "courses": {
+                "engineering": [
+                    {
+                        "name": "B.E. Computer Engineering",
+                        "fee_per_semester": 45000
+                    }
+                ],
+                "arts": [
+                    {
+                        "name": "BA Economics",
+                        "fee_per_semester": 25000
+                    }
+                ]
+            },
+            "facilities": {
+                "sports": ["Cricket Ground", "Sports Complex"],
+                "labs": ["Computer Lab", "Language Lab"],
+                "library": {
+                    "books": 400000
+                },
+                "hostel": {
+                    "boys": true,
+                    "girls": true
+                }
+            }
+        }
+    ]
+}
